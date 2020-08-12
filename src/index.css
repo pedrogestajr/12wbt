@@ -1,3 +1,42 @@
 @import-normalize; /* bring in normalize.css styles */
 
 /*App styles */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #3c444d;
+  letter-spacing: -0.02em;
+  box-sizing: border-box;
+}
+
+/* Hero Styles */
+#section-hero {
+  background-image: url(./assets/img/home/newhp-header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  height: 90vh;
+  text-align: center;
+}
+
+#section-hero h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #007bff;
+  line-height: 1.14em;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#section-hero p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #464646;
+  margin-bottom: 0;
+}
+
+.hero-text {
+  padding: 10px 0;
+  background: hsla(0, 0%, 100%, 0.85);
+}
