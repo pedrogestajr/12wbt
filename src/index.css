@@ -247,3 +247,108 @@ body {
   top: 0;
   background-color: rgba(51, 51, 51, 0.5);
 }
+
+/* Benefits */
+.benefits-title h2 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  font-family: ArsMaquette-Black, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.01rem;
+  line-height: 2.1rem;
+  text-align: center;
+  color: #003b70;
+  margin: 0.2em 0;
+}
+
+.benefits-list h3 {
+  font-size: 1.7rem;
+  font-family: ArsMaquette, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: none;
+  line-height: 2rem;
+  color: #fff;
+  box-shadow: 8px 8px 5px 0 rgba(85, 85, 85, 0.15);
+  padding: 6.67px;
+  margin: 0.6em 0;
+}
+
+.benefits-list ul {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+  line-height: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.benefits-list li {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6em;
+  color: #3c444d;
+  margin: 5px 0;
+  padding-left: 0;
+}
+
+.benefits-list span {
+  position: relative;
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+
+span::before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  top: 6px;
+  left: -24px;
+  border-radius: 10px;
+}
+
+.nutrition h3,
+.nutrition span::before {
+  background-color: #3de5c7;
+}
+
+.fitness h3,
+.fitness span::before {
+  background-color: #ee3642;
+}
+
+.mindset h3,
+.mindset span::before {
+  background-color: #f573b0;
+}
+
+.support h3,
+.support span::before {
+  background-color: #634cb7;
+}
+
+.free-sample {
+  text-align: center;
+}
+
+.free-sample a,
+.free-sample a:hover {
+  display: block;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  background: #01c460;
+  white-space: normal;
+  box-shadow: none;
+  text-shadow: none;
+  margin: 20px 0;
+  width: 100%;
+  padding: 15px;
+  border-radius: 0;
+}
