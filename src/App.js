@@ -9,6 +9,7 @@ import FitnessPrograms from "./components/FitnessPrograms";
 import Benefits from "./components/Benefits";
 
 import "bootstrap/dist/css/bootstrap.css";
+import SocialBanner from "./components/SocialBanner";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <WhyItWorks />
       <FitnessPrograms />
       <Benefits />
+      <SocialBanner />
     </Router>
   );
 }
