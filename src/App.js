@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Blokes from "./components/Blokes";
 
 import "bootstrap/dist/css/bootstrap.css";
+import WhyItWorks from "./components/WhyItWorks";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavMenu />
       <Hero />
       <Blokes />
+      <WhyItWorks />
     </Router>
   );
 }
