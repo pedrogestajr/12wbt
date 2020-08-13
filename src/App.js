@@ -7,6 +7,7 @@ import Blokes from "./components/Blokes";
 
 import "bootstrap/dist/css/bootstrap.css";
 import WhyItWorks from "./components/WhyItWorks";
+import FitnessPrograms from "./components/FitnessPrograms";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Blokes />
       <WhyItWorks />
+      <FitnessPrograms />
     </Router>
   );
 }

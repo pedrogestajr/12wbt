@@ -2,10 +2,11 @@
 
 /*App styles */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: ArsMaquette-Black, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 14px;
   color: #3c444d;
+  background-color: #fff;
   letter-spacing: -0.02em;
   box-sizing: border-box;
 }
@@ -111,10 +112,12 @@ body {
 }
 
 #section-why .section-content {
+  background-color: #f4f4f4;
   padding: 2em 0;
 }
 
 #section-why .section-content h3 {
+  font-family: ArsMaquette-Black, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.9rem;
   font-weight: 900;
   letter-spacing: 0.01rem;
@@ -127,4 +130,120 @@ body {
   font-weight: 300;
   line-height: 1.6em;
   margin: 0 0 1.2em;
+}
+
+/* FitnessPrograms styles */
+#fitness-programs {
+  padding: 1rem 0;
+}
+#fitness-programs .section-title {
+  font-size: 1.9rem;
+  line-height: 2.1rem;
+  color: #003b70;
+  text-align: center;
+  margin: 0.8em 0;
+}
+
+#fitness-programs .fitness-programs-cta {
+  padding: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 8px 8px 5px 0 rgba(85, 85, 85, 0.15);
+}
+
+#fitness-programs .fitness-programs-cta h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: ArsMaquette, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 2.1rem;
+  color: #007ce0;
+  margin: 0.8em 0;
+}
+
+#fitness-programs .fitness-programs-cta .btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: none;
+  color: #fff;
+  background: #00b5f2;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+#fitness-programs .fitness-programs-cta p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-align: center;
+  color: #3c444d;
+  margin: 0.4rem 0;
+}
+
+#fitness-programs .card-collection {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+
+#fitness-programs .card {
+  margin-bottom: 15px;
+  display: block;
+  height: 100%;
+  position: relative;
+  padding-top: 180px;
+  background-size: cover;
+  background-position: top;
+  border: none;
+  border-radius: 0;
+}
+
+#fitness-programs .card .card-title {
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+  background: #fff;
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 54px;
+  padding: 5px;
+  font-family: ArsMaquette-Black, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.01rem;
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #007de0;
+  z-index: 2;
+  border: 0;
+  font-style: normal;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.weight-loss {
+  background-image: url(./assets/img/home/card/weight-loss.jpg);
+}
+
+.strength {
+  background-image: url(./assets/img/home/card/strength.jpg);
+}
+
+.running {
+  background-image: url(./assets/img/home/card/running.jpg);
+}
+
+.post-baby {
+  background-image: url(./assets/img/home/card/post-baby.jpg);
+}
+
+.gray-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(51, 51, 51, 0.5);
 }
