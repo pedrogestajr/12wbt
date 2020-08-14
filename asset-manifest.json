@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/12wbt/static/css/main.740a374d.chunk.css",
-    "main.js": "/12wbt/static/js/main.a3f63c73.chunk.js",
-    "main.js.map": "/12wbt/static/js/main.a3f63c73.chunk.js.map",
+    "main.css": "/12wbt/static/css/main.dae4b342.chunk.css",
+    "main.js": "/12wbt/static/js/main.fd7b5904.chunk.js",
+    "main.js.map": "/12wbt/static/js/main.fd7b5904.chunk.js.map",
     "runtime-main.js": "/12wbt/static/js/runtime-main.bf7f7356.js",
     "runtime-main.js.map": "/12wbt/static/js/runtime-main.bf7f7356.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/12wbt/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.afa0c12e.chunk.js": "/12wbt/static/js/2.afa0c12e.chunk.js",
-    "static/js/2.afa0c12e.chunk.js.map": "/12wbt/static/js/2.afa0c12e.chunk.js.map",
+    "static/js/2.366659bb.chunk.js": "/12wbt/static/js/2.366659bb.chunk.js",
+    "static/js/2.366659bb.chunk.js.map": "/12wbt/static/js/2.366659bb.chunk.js.map",
     "index.html": "/12wbt/index.html",
-    "precache-manifest.9807d847e5607bb85996c19dcd4d7fab.js": "/12wbt/precache-manifest.9807d847e5607bb85996c19dcd4d7fab.js",
+    "precache-manifest.69bc91b9948e6407e909a10427ca8aa6.js": "/12wbt/precache-manifest.69bc91b9948e6407e909a10427ca8aa6.js",
     "service-worker.js": "/12wbt/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/12wbt/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.740a374d.chunk.css.map": "/12wbt/static/css/main.740a374d.chunk.css.map",
-    "static/js/2.afa0c12e.chunk.js.LICENSE.txt": "/12wbt/static/js/2.afa0c12e.chunk.js.LICENSE.txt",
+    "static/css/main.dae4b342.chunk.css.map": "/12wbt/static/css/main.dae4b342.chunk.css.map",
+    "static/js/2.366659bb.chunk.js.LICENSE.txt": "/12wbt/static/js/2.366659bb.chunk.js.LICENSE.txt",
     "static/media/12wbt-logo.30c8c45a.svg": "/12wbt/static/media/12wbt-logo.30c8c45a.30c8c45a.svg",
+    "static/media/index.css": "/12wbt/static/media/weight-loss.506770a6.jpg",
     "static/media/instagram-icon.png": "/12wbt/static/media/instagram-icon.685fed1f.png",
-    "static/media/mishandtodd-hp.jpg": "/12wbt/static/media/mishandtodd-hp.1c2c3eff.jpg",
-    "static/media/index.css": "/12wbt/static/media/weight-loss.506770a6.jpg"
+    "static/media/mishandtodd-hp.jpg": "/12wbt/static/media/mishandtodd-hp.1c2c3eff.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bf7f7356.js",
     "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.afa0c12e.chunk.js",
-    "static/css/main.740a374d.chunk.css",
-    "static/js/main.a3f63c73.chunk.js"
+    "static/js/2.366659bb.chunk.js",
+    "static/css/main.dae4b342.chunk.css",
+    "static/js/main.fd7b5904.chunk.js"
   ]
 }
