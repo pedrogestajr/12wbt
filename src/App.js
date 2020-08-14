@@ -7,9 +7,10 @@ import Blokes from "./components/Blokes";
 import WhyItWorks from "./components/WhyItWorks";
 import FitnessPrograms from "./components/FitnessPrograms";
 import Benefits from "./components/Benefits";
+import SocialBanner from "./components/SocialBanner";
+import CallToAction from "./components/CallToAction";
 
 import "bootstrap/dist/css/bootstrap.css";
-import SocialBanner from "./components/SocialBanner";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <FitnessPrograms />
       <Benefits />
       <SocialBanner />
+      <CallToAction />
     </Router>
   );
 }
