@@ -43,7 +43,7 @@ const slides = [
 
 export const Results = () => {
   return (
-    <section id="section-results" className="section section-results">
+    <section id="section-results">
       <Container fluid="sm">
         <h2 className="section-title">We've lost 1.5 million kilos</h2>
         <Row>
@@ -53,7 +53,6 @@ export const Results = () => {
                 { width: 1, itemsToShow: 1 },
                 { width: 768, itemsToShow: 3 },
               ]}
-              className="results-carousel"
               disableArrowsOnEnd={true}
               itemPadding={[5, 10, 5, 10]}
             >
