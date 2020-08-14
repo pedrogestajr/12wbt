@@ -470,3 +470,71 @@ span::before {
   text-align: center;
   margin: 0.4rem 0;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer .logo {
+  width: 100%;
+  max-width: 124px;
+}
+
+footer p {
+  margin-bottom: 0.3em;
+}
+
+footer a {
+  margin: auto 10px;
+}
+
+footer a:first-child {
+  margin-left: 0;
+}
+
+footer .grey-text,
+footer .grey-text a {
+  color: #999;
+}
+
+footer .text-left {
+  text-align: left;
+}
+
+footer .disclaimer {
+  color: #3c444d;
+  margin-top: 1em;
+}
+
+footer .disclaimer a {
+  color: inherit;
+}
+
+.fa-social-grey {
+  color: #999;
+  text-align: right;
+}
+
+.fa-social-grey a,
+.fa-social-grey a:hover {
+  display: inline-block;
+  position: relative;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-decoration: none;
+  color: inherit;
+  margin: auto 5px;
+}
+
+.fa-social-grey a:last-child {
+  margin-right: 0;
+}
+
+.fa-social-grey .full-size {
+  height: 100%;
+  width: 100%;
+}
