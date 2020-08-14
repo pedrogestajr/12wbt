@@ -9,6 +9,7 @@ import FitnessPrograms from "./components/FitnessPrograms";
 import Benefits from "./components/Benefits";
 import SocialBanner from "./components/SocialBanner";
 import CallToAction from "./components/CallToAction";
+import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -23,6 +24,7 @@ function App() {
       <Benefits />
       <SocialBanner />
       <CallToAction />
+      <Footer />
     </Router>
   );
 }
