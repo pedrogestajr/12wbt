@@ -393,3 +393,80 @@ span::before {
   text-align: center;
   color: #999;
 }
+
+/* CallToAction */
+#section-cta {
+  position: relative;
+  width: 100%;
+  background: url(./assets/img/home/1millionkilosgroup-footer.jpg) 50% / cover
+    no-repeat;
+  padding: 60px 0;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+#section-cta .gray-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+#section-cta .section-title {
+  font-size: 1.9rem;
+  font-weight: bold;
+  font-family: ArsMaquette, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 2.1rem;
+  text-align: center;
+  text-transform: none;
+  color: #fff;
+  margin: 0.8em 0;
+}
+
+.cta-join {
+  font-size: 100%;
+  font-weight: 400;
+  font-family: inherit;
+  font-style: normal;
+  line-height: 1;
+  text-align: left;
+  text-decoration: none;
+  background: #fff;
+  box-shadow: 8px 8px 5px 0 rgba(85, 85, 85, 0.15);
+  padding: 30px;
+  margin: 0;
+  border: 0;
+}
+
+.cta-join h3 {
+  color: #007ce0;
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+
+.cta-join a,
+.cta-join a:hover {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: inherit;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: uppercase;
+  color: #fff;
+  background: #00b5f2;
+  padding: 20px 10px;
+  border-radius: 0;
+}
+
+.cta-join p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0.4rem 0;
+}
