@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
-import "./WhyItWorks.css";
+import './WhyItWorks.css';
 
 function WhyItWorks() {
   return (
