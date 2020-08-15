@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
-import "./WhyItWorks.css";
+import './WhyItWorks.css';
 
 function WhyItWorks() {
   return (
@@ -9,7 +9,7 @@ function WhyItWorks() {
       <Container fluid>
         <Row className="section-header">
           <Col>
-            <h2 className="section-title">
+            <h2 className="section-title text-center">
               Why 12WBT will work for <u>YOU</u>
             </h2>
           </Col>
