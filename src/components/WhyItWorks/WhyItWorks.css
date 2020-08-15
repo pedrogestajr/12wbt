@@ -1,0 +1,71 @@
+/* WhyItWorks styles */
+#section-why .section-header {
+  background-image: url(../../assets/img/home/new-why-12wbt-will-work.jpg);
+  background-size: cover;
+  background-position: top;
+  min-height: 350px;
+  align-content: center;
+}
+
+#section-why .section-header .section-title {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.01rem;
+  color: #fff;
+  margin: auto;
+}
+
+#section-why .section-content {
+  background-color: #f4f4f4;
+  padding: 2em 0;
+}
+
+#section-why .section-content h3 {
+  font-family: ArsMaquette-Black, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.01rem;
+  font-weight: 900 !important;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #003b70;
+  text-align: center;
+}
+
+#section-why .section-content p {
+  font-size: 1rem;
+  color: #3c444d;
+  font-weight: 300;
+  margin: 0 0 1.2em;
+  line-height: 1.6em;
+}
+
+@media (min-width: 1200px) {
+  #section-why .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 768px) {
+  #section-why .section-content {
+    padding: 2em 0;
+    background: #f4f4f4;
+  }
+
+  #section-why .section-content h3 {
+    font-family: ArsMaquette-Black, "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    letter-spacing: 0.01rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #003b70;
+    text-align: center;
+  }
+
+  #section-why .section-content p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin: 0 0 1.2em;
+  }
+}

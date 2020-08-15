@@ -1,0 +1,56 @@
+/* Hero styles */
+#section-hero {
+  height: auto;
+  min-height: 380px;
+  background-image: url(../../assets/img/home/newhp-header.jpg);
+  background-position: 50%;
+  background-position-y: 40%;
+  background-size: cover;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.hero-text {
+  padding: 10px 0;
+  background: hsla(0, 0%, 100%, 0.85);
+}
+
+#section-hero .hero-text h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  height: auto;
+  padding: 0;
+  line-height: 1.14em;
+  font-weight: 700 !important;
+  text-align: center;
+  color: #007bff;
+}
+
+#section-hero p {
+  font-size: 0.9rem;
+  color: #464646;
+}
+
+@media (min-width: 768px) {
+  #section-hero {
+    min-height: 640px;
+  }
+
+  #section-hero .hero-message {
+    padding: 10px 0;
+    background: hsla(0, 0%, 100%, 0.85);
+  }
+
+  #section-hero .hero-text h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem;
+    height: auto;
+    padding: 0;
+    line-height: 1.14em;
+    font-weight: 700 !important;
+  }
+
+  #section-hero p {
+    font-size: 1.2rem;
+  }
+}

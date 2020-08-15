@@ -1,0 +1,34 @@
+/* Results */
+#section-results {
+  padding: 30px 0;
+  background-image: url(../../assets/img/home/blue-bubble-wallpaper.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+#section-results .section-title {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: ArsMaquette, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 2.1rem;
+  text-align: center;
+  text-transform: none;
+  color: #007de0;
+  margin: 0.5em 0;
+  padding-bottom: 0;
+}
+
+#section-results .caption {
+  position: relative;
+  bottom: 60px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 10px 0;
+}
+
+#section-results .disclaimer {
+  color: #3c444d;
+}
