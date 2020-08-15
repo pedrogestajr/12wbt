@@ -2,12 +2,14 @@ import React from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-import facebook from "../assets/img/home/social/facebook-icon.png";
-import instagram from "../assets/img/home/social/instagram-icon.png";
-import twitter from "../assets/img/home/social/twitter-icon.png";
-import youtube from "../assets/img/home/social/youtube-icon.png";
+import "./SocialBanner.css";
 
-export const SocialBanner = () => {
+import facebook from "../../assets/img/home/social/facebook-icon.png";
+import instagram from "../../assets/img/home/social/instagram-icon.png";
+import twitter from "../../assets/img/home/social/twitter-icon.png";
+import youtube from "../../assets/img/home/social/youtube-icon.png";
+
+function SocialBanner() {
   return (
     <section id="section-social">
       <Container>
@@ -67,6 +69,6 @@ export const SocialBanner = () => {
       </Container>
     </section>
   );
-};
+}
 
 export default SocialBanner;

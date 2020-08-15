@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-export const Benefits = () => {
+import "./Benefits.css";
+
+function Benefits() {
   return (
     <section id="benefits">
       <Container>
@@ -93,6 +95,6 @@ export const Benefits = () => {
       </Container>
     </section>
   );
-};
+}
 
 export default Benefits;

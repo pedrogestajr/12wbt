@@ -1,8 +1,9 @@
 import React from "react";
-
 import { Container, Row, Col } from "react-bootstrap";
 
-export const CallToAction = () => {
+import "./CallToAction.css";
+
+function CallToAction() {
   return (
     <section id="section-cta">
       <div className="gray-overlay"></div>
@@ -20,7 +21,9 @@ export const CallToAction = () => {
               <Col sm={12} md={4}>
                 <div className="cta-join">
                   <h3>Your success story is next!</h3>
-                  <a href="/">Join Now &gt;</a>
+                  <a href="https://go.12wbt.com/sign-up?billing_option=single-payment">
+                    Join Now &gt;
+                  </a>
                   <p className="cta-text">Payment plans available</p>
                 </div>
               </Col>
@@ -30,6 +33,6 @@ export const CallToAction = () => {
       </Container>
     </section>
   );
-};
+}
 
 export default CallToAction;

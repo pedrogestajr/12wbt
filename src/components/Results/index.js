@@ -2,13 +2,15 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import { Container, Row, Col } from "react-bootstrap";
 
-import craig from "../assets/img/home/carousel/BA-Craig-5.jpeg";
-import jenny from "../assets/img/home/carousel/BA-Jenny-2.jpeg";
-import karissa from "../assets/img/home/carousel/BA-Karissa-4.jpeg";
-import keith from "../assets/img/home/carousel/BA-Keith-7.jpeg";
-import richelle from "../assets/img/home/carousel/BA-Richelle-3.jpeg";
-import ryan from "../assets/img/home/carousel/BA-Ryan-6.jpeg";
-import sue from "../assets/img/home/carousel/BA-Sue-1.jpeg";
+import "./Results.css";
+
+import craig from "../../assets/img/home/carousel/BA-Craig-5.jpeg";
+import jenny from "../../assets/img/home/carousel/BA-Jenny-2.jpeg";
+import karissa from "../../assets/img/home/carousel/BA-Karissa-4.jpeg";
+import keith from "../../assets/img/home/carousel/BA-Keith-7.jpeg";
+import richelle from "../../assets/img/home/carousel/BA-Richelle-3.jpeg";
+import ryan from "../../assets/img/home/carousel/BA-Ryan-6.jpeg";
+import sue from "../../assets/img/home/carousel/BA-Sue-1.jpeg";
 
 const slides = [
   {
@@ -41,7 +43,7 @@ const slides = [
   },
 ];
 
-export const Results = () => {
+function Results() {
   return (
     <section id="section-results">
       <Container fluid="sm">
@@ -81,6 +83,6 @@ export const Results = () => {
       </Container>
     </section>
   );
-};
+}
 
 export default Results;
