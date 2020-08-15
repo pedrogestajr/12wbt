@@ -1,29 +1,40 @@
 {
   "files": {
-    "main.css": "/12wbt/static/css/main.dae4b342.chunk.css",
-    "main.js": "/12wbt/static/js/main.fd7b5904.chunk.js",
-    "main.js.map": "/12wbt/static/js/main.fd7b5904.chunk.js.map",
+    "main.css": "/12wbt/static/css/main.914e5ee6.chunk.css",
+    "main.js": "/12wbt/static/js/main.d2f432be.chunk.js",
+    "main.js.map": "/12wbt/static/js/main.d2f432be.chunk.js.map",
     "runtime-main.js": "/12wbt/static/js/runtime-main.bf7f7356.js",
     "runtime-main.js.map": "/12wbt/static/js/runtime-main.bf7f7356.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/12wbt/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.366659bb.chunk.js": "/12wbt/static/js/2.366659bb.chunk.js",
-    "static/js/2.366659bb.chunk.js.map": "/12wbt/static/js/2.366659bb.chunk.js.map",
+    "static/js/2.56271d5d.chunk.js": "/12wbt/static/js/2.56271d5d.chunk.js",
+    "static/js/2.56271d5d.chunk.js.map": "/12wbt/static/js/2.56271d5d.chunk.js.map",
     "index.html": "/12wbt/index.html",
-    "precache-manifest.69bc91b9948e6407e909a10427ca8aa6.js": "/12wbt/precache-manifest.69bc91b9948e6407e909a10427ca8aa6.js",
+    "precache-manifest.a810b65354058bed7a7d76b3d9e578ad.js": "/12wbt/precache-manifest.a810b65354058bed7a7d76b3d9e578ad.js",
     "service-worker.js": "/12wbt/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/12wbt/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.dae4b342.chunk.css.map": "/12wbt/static/css/main.dae4b342.chunk.css.map",
-    "static/js/2.366659bb.chunk.js.LICENSE.txt": "/12wbt/static/js/2.366659bb.chunk.js.LICENSE.txt",
+    "static/css/main.914e5ee6.chunk.css.map": "/12wbt/static/css/main.914e5ee6.chunk.css.map",
+    "static/js/2.56271d5d.chunk.js.LICENSE.txt": "/12wbt/static/js/2.56271d5d.chunk.js.LICENSE.txt",
     "static/media/12wbt-logo.30c8c45a.svg": "/12wbt/static/media/12wbt-logo.30c8c45a.30c8c45a.svg",
-    "static/media/index.css": "/12wbt/static/media/weight-loss.506770a6.jpg",
+    "static/media/BA-Craig-5.jpeg": "/12wbt/static/media/BA-Craig-5.c67f527c.jpeg",
+    "static/media/BA-Jenny-2.jpeg": "/12wbt/static/media/BA-Jenny-2.3813bbae.jpeg",
+    "static/media/BA-Karissa-4.jpeg": "/12wbt/static/media/BA-Karissa-4.79a3d6e7.jpeg",
+    "static/media/BA-Keith-7.jpeg": "/12wbt/static/media/BA-Keith-7.e646462b.jpeg",
+    "static/media/BA-Richelle-3.jpeg": "/12wbt/static/media/BA-Richelle-3.70a40510.jpeg",
+    "static/media/BA-Ryan-6.jpeg": "/12wbt/static/media/BA-Ryan-6.da6fc833.jpeg",
+    "static/media/BA-Sue-1.jpeg": "/12wbt/static/media/BA-Sue-1.aac70b14.jpeg",
+    "static/media/CallToAction.css": "/12wbt/static/media/bg-call-to-action.0c8b9c97.0c8b9c97.jpg",
+    "static/media/Footer.css": "/12wbt/static/media/blue-bubble-wallpaper.6ccb2983.jpg",
     "static/media/instagram-icon.png": "/12wbt/static/media/instagram-icon.685fed1f.png",
-    "static/media/mishandtodd-hp.jpg": "/12wbt/static/media/mishandtodd-hp.1c2c3eff.jpg"
+    "static/media/mishandtodd-hp.jpg": "/12wbt/static/media/mishandtodd-hp.1c2c3eff.jpg",
+    "static/media/WhyItWorks.css": "/12wbt/static/media/new-why-12wbt-will-work.2046fee8.jpg",
+    "static/media/Hero.css": "/12wbt/static/media/newhp-header.343e820b.jpg",
+    "static/media/FitnessPrograms.css": "/12wbt/static/media/weight-loss.506770a6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bf7f7356.js",
     "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.366659bb.chunk.js",
-    "static/css/main.dae4b342.chunk.css",
-    "static/js/main.fd7b5904.chunk.js"
+    "static/js/2.56271d5d.chunk.js",
+    "static/css/main.914e5ee6.chunk.css",
+    "static/js/main.d2f432be.chunk.js"
   ]
 }
