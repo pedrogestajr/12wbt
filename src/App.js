@@ -1,22 +1,19 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 
-import NavMenu from "./components/NavMenu";
-import Hero from "./components/Hero";
-import Blokes from "./components/Blokes";
-import Results from "./components/Results";
-import WhyItWorks from "./components/WhyItWorks";
-import FitnessPrograms from "./components/FitnessPrograms";
-import Benefits from "./components/Benefits";
-import SocialBanner from "./components/SocialBanner";
-import CallToAction from "./components/CallToAction";
-import Footer from "./components/Footer";
-
-import "bootstrap/dist/css/bootstrap.css";
+import NavMenu from "./components/NavMenu/";
+import Hero from "./components/Hero/";
+import Blokes from "./components/Blokes/";
+import Results from "./components/Results/";
+import WhyItWorks from "./components/WhyItWorks/";
+import FitnessPrograms from "./components/FitnessPrograms/";
+import Benefits from "./components/Benefits/";
+import SocialBanner from "./components/SocialBanner/";
+import CallToAction from "./components/CallToAction/";
+import Footer from "./components/Footer/";
 
 function App() {
   return (
-    <Router>
+    <main>
       <NavMenu />
       <Hero />
       <Blokes />
@@ -27,7 +24,7 @@ function App() {
       <SocialBanner />
       <CallToAction />
       <Footer />
-    </Router>
+    </main>
   );
 }
 
