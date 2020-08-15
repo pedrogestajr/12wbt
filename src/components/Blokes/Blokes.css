@@ -1,0 +1,65 @@
+/* Blokes styles */
+#section-blokes {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  background-color: #f0f2f2;
+}
+
+#section-blokes .section-content {
+  flex-direction: column;
+  width: 50%;
+}
+
+#section-blokes .section-text {
+  width: 60%;
+  margin: 2rem auto auto;
+}
+
+#section-blokes .title {
+  font-size: 24pt;
+  font-weight: lighter;
+  text-align: center;
+  color: #003b70;
+  margin-bottom: 1rem;
+}
+
+#section-blokes .section-button {
+  font-size: 14pt;
+  font-weight: 900;
+  color: #fff;
+  background-color: #003b70;
+  text-align: center;
+  max-width: 225px;
+  padding: 1rem;
+  margin: auto;
+}
+
+#section-blokes .section-image {
+  width: 50%;
+}
+
+#section-blokes .section-image img {
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  #section-blokes {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  #section-blokes .section-image,
+  #section-blokes .section-content {
+    width: 100%;
+  }
+
+  #section-blokes .section-text {
+    width: 80%;
+  }
+}

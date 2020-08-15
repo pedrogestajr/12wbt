@@ -9,9 +9,11 @@ import {
   faInstagramSquare,
 } from "@fortawesome/free-brands-svg-icons";
 
-import logo from "../assets/img/home/logo-footer.png";
+import "./Footer.css";
 
-export const Footer = () => {
+import logo from "../../assets/img/home/logo-footer.png";
+
+function Footer() {
   return (
     <footer>
       <Container fluid="sm">
@@ -30,9 +32,12 @@ export const Footer = () => {
               Copyright © 2020 12WBT Trading Pty Ltd.
             </p>
             <div className="grey-text">
-              <a href="/">12WBT Blog</a>|<a href="/">Support Crew</a>|
-              <a href="/">Careers</a>|<a href="/">Contact Us</a>|
-              <a href="/terms">Terms</a>|<a href="/">Privacy</a>
+              <a href="https://www.12wbt.com/blog">12WBT Blog</a>|
+              <a href="https://www.12wbt.com/careers/our-team">Support Crew</a>|
+              <a href="https://www.12wbt.com/careers">Careers</a>|
+              <a href="https://www.12wbt.com/faqs/question">Contact Us</a>|
+              <a href="https://www.12wbt.com/terms">Terms</a>|
+              <a href="https://www.12wbt.com/privacy">Privacy</a>
             </div>
             <div className="disclaimer">
               <p>
@@ -40,7 +45,7 @@ export const Footer = () => {
                 achieve and maintain weight loss.
               </p>
               <p>
-                <a href="/">
+                <a href="https://www.12wbt.com/terms/covid-relief-offer-2020-terms">
                   ** View full competition terms and conditions here.
                 </a>
               </p>
@@ -114,6 +119,6 @@ export const Footer = () => {
       </Container>
     </footer>
   );
-};
+}
 
 export default Footer;

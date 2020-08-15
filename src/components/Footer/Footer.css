@@ -1,0 +1,102 @@
+/* Footer */
+footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer .logo {
+  width: 100%;
+  max-width: 124px;
+}
+
+footer p {
+  margin-bottom: 0.3em;
+}
+
+footer a {
+  margin: auto 10px;
+}
+
+footer a:first-child {
+  margin-left: 0;
+}
+
+footer .grey-text,
+footer .grey-text a {
+  color: #999;
+}
+
+footer .text-left {
+  text-align: left;
+}
+
+footer .disclaimer {
+  color: #3c444d;
+  margin-top: 1em;
+}
+
+footer .disclaimer a {
+  color: inherit;
+}
+
+.fa-social-grey {
+  color: #999;
+  text-align: right;
+}
+
+.fa-social-grey a,
+.fa-social-grey a:hover {
+  display: inline-block;
+  position: relative;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-decoration: none;
+  color: inherit;
+  margin: auto 5px;
+}
+
+.fa-social-grey a:last-child {
+  margin-right: 0;
+}
+
+.fa-social-grey .full-size {
+  height: 100%;
+  width: 100%;
+}
+
+/* Results */
+#section-results {
+  padding: 30px 0;
+  background-image: url(../../assets/img/home/blue-bubble-wallpaper.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+#section-results .section-title {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: ArsMaquette, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 2.1rem;
+  text-align: center;
+  text-transform: none;
+  color: #007de0;
+  margin: 0.5em 0;
+  padding-bottom: 0;
+}
+
+#section-results .caption {
+  position: relative;
+  bottom: 60px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 10px 0;
+}
+
+#section-results .disclaimer {
+  color: #3c444d;
+}

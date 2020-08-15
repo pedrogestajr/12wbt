@@ -1,9 +1,9 @@
 import React from "react";
 
-import "../index.css";
-import MishAndTodd from "../assets/img/home/mishandtodd-hp.jpg";
+import "./Blokes.css";
+import MishAndTodd from "../../assets/img/home/mishandtodd-hp.jpg";
 
-export const Blokes = () => {
+function Blokes() {
   return (
     <section id="section-blokes">
       <div className="section-content">
@@ -25,10 +25,10 @@ export const Blokes = () => {
         </div>
       </div>
       <div className="section-image">
-        <img src={MishAndTodd} alt="Mish and Todd - Blokes Only" />
+        <img src={MishAndTodd} alt="Mish and Todd" />
       </div>
     </section>
   );
-};
+}
 
 export default Blokes;

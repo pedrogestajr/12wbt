@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-export const FitnessPrograms = () => {
+import "./FitnessPrograms.css";
+
+function FitnessPrograms() {
   return (
     <section id="fitness-programs">
       <Container>
@@ -71,6 +73,6 @@ export const FitnessPrograms = () => {
       </Container>
     </section>
   );
-};
+}
 
 export default FitnessPrograms;
